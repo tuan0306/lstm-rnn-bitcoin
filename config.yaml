@@ -1,0 +1,8 @@
+DATA:
+  lookback_window: 60
+  train_split: 0.7
+  validation_split: 0.15
+
+PREPROCESSING:
+  scaler: "MinMaxScaler"
+
