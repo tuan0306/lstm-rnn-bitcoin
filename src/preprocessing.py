@@ -38,7 +38,7 @@ def train_test_split(X,y,train_ratio=0.70, valid_ratio=0.15, test_ratio=0.15):
     print(" X_valid:", X_valid.shape, "y_valid:", y_valid.shape)
     print(" X_test :", X_test.shape, "y_test :", y_test.shape)
 
-    return X_train, y_train, X_valid, y_valid, X_test, y_test
+    return X_train,X_valid,X_test,y_train,y_valid,y_test
 
 def save_arrays(X_train, X_valid, X_test, y_train, y_valid, y_test, scaler, folder="data/processed"):
     import os
