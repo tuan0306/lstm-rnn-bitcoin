@@ -6,3 +6,15 @@ DATA:
 PREPROCESSING:
   scaler: "MinMaxScaler"
 
+TRAINING:
+  batch_size: 32
+  epochs: 100
+  early_stopping_patience: 10
+  optimizer: "adam"
+  loss: "mse"
+
+MODELS:
+  rnn_units: [64,32]
+  lstm_units: [64,32]
+  dropout: 0.2
+  dense_units: 16
