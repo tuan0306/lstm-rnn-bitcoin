@@ -1,0 +1,15 @@
+BITCOIN PRICE FORECASTING: MODEL RELOAD COMPARISON
+RNN Results:
+  MAE:  $5597.97
+  RMSE: $7571.66
+  MAPE: 6.95%
+  Prediction Time: 1.52s
+
+LSTM Results:
+  MAE:  $6615.25
+  RMSE: $7580.31
+  MAPE: 9.18%
+  Prediction Time: 1.64s
+
+Conclusion:
+  Better model by MAE: RNN
